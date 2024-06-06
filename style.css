@@ -15,6 +15,11 @@ body {
     color: var(--c-item);
 }
 
+#cabecalho {
+    display: flex;
+    justify-content: center;
+}
+
 #cabecalho .nav .nav-link,
 .navbar-brand,
 .navbar-brand:hover,
@@ -66,20 +71,8 @@ background-color: #ffeae6;
     width: 540px;
 }
 
-@media (max-width= 767px) {
-    .carousel-item img {
-        height: 280px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
 @media (min-width= 767px) and (max-width= 1023px) {
-    .carousel-inner img{
+    .informacoes-loja {
         display: flex;
-        justify-content: center;
-        align-items: center;
     }
-
 }
