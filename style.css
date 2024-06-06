@@ -1,0 +1,85 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+:root {
+    --c-item: #3f0b0b;
+}
+
+.navbar {
+    background-color: var(--c-item);
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: var(--c-item);
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-produtos .nav-link.active:hover {
+    color: #fff;
+}
+
+#cabecalho .navbar-brand {
+    font-size: 32px;
+}
+
+.navbar-toggler {
+    background-color: #ffe6e6;
+}
+
+.section-title {
+    font-family: "Inconsolata", monospace;
+}
+
+#sobre-os-produtos,
+#fale-conosco {
+background-color: #ffeae6;
+}
+
+.text-colored {
+    color: var(--c-item);
+}
+
+.nav-produtos .nav-link.active,
+#fale-conosco button {
+    background-color: var(--c-item);
+    color: #fff;
+}
+
+.nav-produtos .nav-link:hover {
+    color: var(--c-item);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.col-md-9 {
+    width: 540px;
+}
+
+@media (max-width= 767px) {
+    .carousel-item img {
+        height: 280px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width= 767px) and (max-width= 1023px) {
+    .carousel-inner img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
